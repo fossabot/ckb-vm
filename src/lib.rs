@@ -1,6 +1,7 @@
 #![cfg_attr(feature = "cargo-clippy", allow(clippy))]
 
 extern crate byteorder;
+extern crate fnv;
 extern crate goblin;
 
 pub mod bits;
